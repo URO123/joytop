@@ -1,0 +1,62 @@
+.maqolalar-two {
+    padding-top: 103px;
+}
+.maqolalar__inner {
+}
+.maqol__link {
+    color: #575757;
+    text-decoration: none;
+    background-color: #EFEFEF;
+    padding: 6px;
+    border-radius: 4px;
+}
+.maqola-two {
+}
+.maqola__title-two {
+    margin-top: 35px;
+    margin-bottom: 17px;
+    color: #575757;
+    font-size: xx-large;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.maqola__list {
+    @include list-starter;
+}
+.maqola__item {
+    @include list-starter;
+}
+.maqola__item-title {
+    color: #575757;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.maqola__link {
+    color: #ff7e46;
+    font-weight: 600;
+    font-size: x-large;
+}
+.maqola__link2 {
+    color: #ff7e46;
+    font-weight: 400;
+    font-size: large;
+}
+.maqola__link3 {
+    color: #ff7e46;
+    font-weight: 600;
+    font-size:large;
+}
+.maqola__item-text {
+    color: #575757;
+    margin-top: 17px;
+}
+.maqola__item-text2 {
+    color: #575757;
+    margin-top: 15px;
+}
+.maqola__item-text3 {
+    color: #575757;
+    margin-top: 15px;
+}

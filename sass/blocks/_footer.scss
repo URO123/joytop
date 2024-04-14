@@ -1,0 +1,28 @@
+.footer {
+    background-color: #ff7e46;
+    margin-top: 30px;
+}
+.footer__inner {
+    padding-bottom: 10px;
+    position: relative;
+}
+.box__img {
+}
+.box {
+    @include flex-starter;
+    flex-direction: column;
+}
+.box-text {
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    bottom: 10px;
+}
+.str {
+    color: #fff;
+}
+.box__text {
+    color: #fff;
+    font-weight: 600;
+}

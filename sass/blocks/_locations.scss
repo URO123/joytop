@@ -1,0 +1,165 @@
+.locations {
+    padding-top: 100px;
+}
+.location-two {
+    padding-top: 100px;
+}
+.locations__inner {
+    margin-bottom: 40px;
+    position: relative;
+}
+.locations__inner::before{
+    background-image: url(../../images/chat.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+    content:'';
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+    right: -160px;
+}
+.locations__list {
+    @include flex-starter;
+    width: 100%;
+    max-width:1140;
+    flex-wrap: wrap;
+    gap: 30px;
+    @include list-starter;
+}
+.location__list {
+    @include flex-starter;
+    width: 100%;
+    max-width:1140;
+    @include list-starter;
+}
+.locations__list-item {
+    width: 100%;
+    max-width: 360px;
+    height: 320px;
+    border-radius: 10px;
+    padding-top: 120px;
+    transition: all 0.3s ease-in-out;
+}
+.location__list-item {
+    width: 100%;
+    max-width: 228px;
+    height: 130px;
+    transition: all 0.1s ease-in-out;
+}
+.locations__list-item:hover{
+    transform: scale(1.1),;
+    z-index: 2;
+    cursor: pointer;
+}
+.location__list-item:hover{
+    transform: scale(1.1),;
+    z-index: 2;
+    cursor: pointer;
+}
+.dacha{
+    background-image: url(../../images/dacha.png);
+    background-color: #FF7E47;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.home{
+    background-image: url(../../images/home.png);
+    background-color: #426BFF;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.hotel{
+    background-image: url(../../images/hotel.png);
+    background-color: #9847FF;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.oromgoh{
+    background-image: url(../../images/oromgoh.png);
+    background-color: #FF5977;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.tour{
+    background-image: url(../../images/tour.png);
+    background-color: #FFD159;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.extreme{
+    background-image: url(../../images/extreme.png);
+    background-color: #45D891;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.dacha2{
+    background-image: url(../../images/dacha2.png);
+    background-color: #FF7E47;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.home2{
+    background-image: url(../../images/home2.png);
+    background-color: #426BFF;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.hotel2{
+    background-image: url(../../images/hotel2.png);
+    background-color: #9847FF;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.oromgoh2{
+    background-image: url(../../images/oromgoh2.png);
+    background-color: #FF5977;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.tour2{
+    background-image: url(../../images/tour2.png);
+    background-color: #FFD159;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.extreme2{
+    background-image: url(../../images/extreme2.png);
+    background-color: #45D891;
+    background-position: center;
+    background-blend-mode:normal;
+}
+.list-item__box {
+    @include flex-starter;
+    flex-direction: column;
+}
+.list-item__box-img {
+    margin-bottom: 45px;
+}
+.dacha-img{
+    height: 81px;
+}
+.list-item2__box-img {
+    margin-bottom: 0;
+}
+.list-item__box-title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    align-items: center;
+    line-height: 35px;
+}
+.list-item__box-title2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 26px;
+    align-items: center;
+    line-height: 35px;
+}
+.link{
+    text-decoration: none;
+    @include flex-starter;
+    flex-direction: column;
+}
